@@ -1,6 +1,6 @@
 ﻿namespace EventBus.UniRX
 {
-    public interface ISomeMessage
+    public interface ISomeMessage : IMessage
     {
     }
 }
