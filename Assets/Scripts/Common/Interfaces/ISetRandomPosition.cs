@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace EventBus
+namespace EventBus.Common
 {
     public interface ISetRandomPosition : IMessage
     {

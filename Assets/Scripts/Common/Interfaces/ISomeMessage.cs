@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 
-namespace EventBus
+namespace EventBus.Common
 {
     public interface ISomeMessage : IMessage
     {
-        Task Print(string message);
+        void Print(string message);
     }
 }

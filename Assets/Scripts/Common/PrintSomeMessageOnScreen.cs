@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 
 
-namespace EventBus
+namespace EventBus.Common
 {
     public class PrintSomeMessageOnScreen : ISomeMessage, IDisposable
     {
@@ -21,7 +21,7 @@ namespace EventBus
             MessageHandler.Subscribe(this);
         }
 
-        public async Task Print(string message)
+        public async void Print(string message)
         {
             _textField.color = Color.cyan;
             _textField.text = message;

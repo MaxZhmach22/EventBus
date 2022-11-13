@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 
-namespace EventBus
+namespace EventBus.Common
 {
     public class GameHandler : MonoBehaviour
     {

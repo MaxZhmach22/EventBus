@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 
-namespace EventBus
+namespace EventBus.Common
 {
     public static class MessageHandler
     {

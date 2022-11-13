@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 
 
-namespace EventBus
+namespace EventBus.Common
 {
     public class PrintDamageMessageOnScreen : IDamage, IDisposable
     {

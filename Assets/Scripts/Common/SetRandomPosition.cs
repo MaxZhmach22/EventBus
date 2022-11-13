@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace EventBus
+namespace EventBus.Common
 {
     public class SetRandomPosition : ISetRandomPosition, IDisposable
     {
